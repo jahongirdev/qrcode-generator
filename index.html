@@ -17,17 +17,21 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
 <body>
-    
+    <!-- Container -->
     <div class="container">
         <p>Enter your text or URL</p>
+        <!-- Input -->
         <input type="text" placeholder="Text or URL" id="qrText" title="Type anything here...">
+        <!-- QR Code image -->
         <div id="imgBox">
             <img src="" id="qrImg">
         </div>
+        <!-- Buttons -->
         <button onclick="generateQR()">Generate QR Code</button>
         <button onclick="deleteQr()" id="delete">Delete</button>
     </div>
 
+    <!-- Script files -->
     <script src="js/app.js"></script>
 </body>
 </html>

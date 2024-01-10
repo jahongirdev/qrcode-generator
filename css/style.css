@@ -8,6 +8,7 @@ body {
     font-family: "Poppins", sans-serif;
     background: #262a2f;
 }
+/* Container */
 .container {
     width: 100%;
     max-width: 500px;
@@ -24,6 +25,7 @@ body {
     font-size: 18px;
     margin-bottom: 8px;
 }
+/* Input */
 .container input {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
@@ -36,6 +38,7 @@ body {
     border-radius: 5px;
     text-indent: 10px;
 }
+/* Buttons */
 .container button {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
@@ -61,7 +64,9 @@ body {
 #delete {
     background: rgb(134, 8, 8);
     margin: 0;
+    display: none;
 }
+/* Qr Code image */
 #imgBox {
     width: 200px;
     border-radius: 5px;
@@ -78,10 +83,12 @@ body {
     margin: 10px auto;
     border: 1px solid #d1d1d1;
 }
+/* Input Error */
 .error {
     animation: shake 0.1s linear 10;
     border: 1px solid red !important;
 }
+/* Input Error Animation */
 @keyframes shake {
     0% {
         transform: translateX(0);
