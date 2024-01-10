@@ -1,3 +1,3 @@
 QR Code Generator
 
-Live: 
+Live: https://qrcodegeneratesite.netlify.app/
