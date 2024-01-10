@@ -1,6 +1,7 @@
 let imgBox = document.getElementById("imgBox");
 let qrImage = document.getElementById("qrImg");
 let qrText = document.getElementById("qrText");
+let deleteQrBtn = document.getElementById("delete");
 
 function generateQR() {
     if(qrText.value.length > 0) {
@@ -12,5 +13,9 @@ function generateQR() {
             qrText.classList.remove("error");
         }, 1000);
     }
-    
+}
+
+function deleteQr() {
+    qrText.value = "";
+    imgBox.style.display = "none";
 }
